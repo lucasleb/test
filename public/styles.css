@@ -1,0 +1,89 @@
+body {
+    margin: 0%;
+}
+
+.background {
+    position: fixed;
+    /* top: 0%;
+    left: 0%; */
+}
+
+.inside-div {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.outside-div {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    mix-blend-mode: darken;
+}
+
+/* PUT INSIDE DIV AND OUTSIDE IN IN COMMON CONTAINER FIXED */
+.inside-canvas {
+    position: static;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background: linear-gradient(#e66465, #9198e5);
+}
+    
+.outside-canvas {
+    position: static;
+    height: 100%;
+    background: linear-gradient(#9198e5, #e66465);
+    
+}
+
+.text {
+position: absolute;
+top: 0%;
+left: 0%;
+margin: 0;
+height: 100%;
+width: 100%;
+text-align: center;
+}
+
+.container-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    font-size: 40vmin;
+    /* transform: scaleY(130%); */
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+    
+}
+
+.inside-text {
+    mix-blend-mode: screen;
+    background-color: white;
+    color: black;
+    -webkit-text-stroke: 0.5px  ;
+}
+
+.outside-text {
+    mix-blend-mode: screen;
+    background-color: black;
+    color: white;
+}
+
+.scroll {
+    position: relative;
+    color: transparent;
+    height: 100vh;
+}
+
+/* #copyCanvas {
+    transform: scaleY(-1);
+} */
